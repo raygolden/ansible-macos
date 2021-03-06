@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - raygolden.macos
+    - raygolden.ansible-macos
