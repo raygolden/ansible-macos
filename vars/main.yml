@@ -1,2 +1,36 @@
 ---
 # vars file for raygolden.ansible-macos
+
+brew_cask_packages:
+  - docker
+  - firefox
+  - iterm2
+  - lastpass
+  - macvim
+  - slack
+  - sublime-text
+  - visual-studio-code
+
+brew_packages:
+  - autoconf
+  - bash-completion
+  - docker-compose
+  - docker-machine
+  - doxygen
+  - git
+  - git-lfs
+  - go
+  - jq
+  - terraform
+  - terraform-inventory
+  - terraform-provisioner-ansible
+  - tree
+  - wget
+  - zsh
+  - zsh-syntax-highlighting
+install_homebrew_if_missing: false
+python_modules:
+  - configparser
+  - pylint
+  - virtualenv
+upgrade_homebrew_packages: false

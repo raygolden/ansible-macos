@@ -1,7 +1,7 @@
-Role Name
+ansible-macos
 =========
 
-A brief description of the role goes here.
+This role is to setup software on MacOS
 
 Requirements
 ------------
