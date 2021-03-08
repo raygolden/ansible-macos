@@ -1,17 +1,16 @@
 ---
 # vars file for raygolden.ansible-macos
 
-brew_cask_packages:
+homebrew_cask_packages:
   - docker
   - firefox
   - iterm2
   - lastpass
-  - macvim
   - slack
   - sublime-text
   - visual-studio-code
 
-brew_packages:
+homebrew_packages:
   - autoconf
   - bash-completion
   - docker-compose
