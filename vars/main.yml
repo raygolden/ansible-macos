@@ -23,7 +23,6 @@ brew_packages:
   - jq
   - terraform
   - terraform-inventory
-  - terraform-provisioner-ansible
   - tree
   - wget
   - zsh
